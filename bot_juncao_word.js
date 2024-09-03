@@ -3,7 +3,7 @@ const path = require('path');
 const officegen = require('officegen');
 const mammoth = require('mammoth');
 
-const directoryPath = 'C:/Users/trabalho/Documents/bot_divisor_de_videos';
+const directoryPath = '';
 
 fs.readdir(directoryPath, async (err, files) => {
   if (err) {
