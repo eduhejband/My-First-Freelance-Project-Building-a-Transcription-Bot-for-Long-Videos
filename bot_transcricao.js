@@ -8,7 +8,7 @@ const client = new speech.SpeechClient({
   keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS,
 });
 
-const directoryPath = 'C:/Users/trabalho/Documents/bot_divisor_de_videos'; // altere isso para o caminho do seu diretório
+const directoryPath = ''; // altere isso para o caminho do seu diretório
 
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
