@@ -1,6 +1,6 @@
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
-const videoPath = 'C:/Users/trabalho/Downloads/video1.wmv'; // Aqui é onde você altera para seu arquivo .wmv
+const videoPath = ''; // Aqui é onde você altera para seu arquivo .wmv
 const segmentDuration = 30; // 30 segundos
 
 ffmpeg(videoPath)
