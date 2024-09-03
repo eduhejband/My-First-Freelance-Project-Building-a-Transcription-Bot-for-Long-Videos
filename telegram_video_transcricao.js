@@ -15,7 +15,7 @@ const client = new speech.SpeechClient({
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
-  bot.sendMessage(chatId, 'Oi! Sou um bot do GPT-3. Como posso ajudá-lo hoje?');
+  bot.sendMessage(chatId, 'Message');
 });
 
 bot.on('video', async (msg) => {
