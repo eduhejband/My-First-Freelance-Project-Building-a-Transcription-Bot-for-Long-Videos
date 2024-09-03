@@ -4,7 +4,7 @@ const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
 const speech = require('@google-cloud/speech');
 
-const TELEGRAM_TOKEN = '5858987957:AAHMOb0kPoLRX9py1jxbTSdsWeTXj_wKumk'; // Substitua pelo seu token
+const TELEGRAM_TOKEN = ''; // Substitua pelo seu token
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
  // Cliente Google Cloud Speech-to-Text
