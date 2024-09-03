@@ -5,12 +5,12 @@ const { Deepgram } = require('@deepgram/sdk');
 const officegen = require('officegen');
 
 // Your Deepgram API Key
-const deepgramApiKey = "d05c9fbbd4a3aa8f8c5679c8b739ddda67252d38";
+const deepgramApiKey = "";
 
 // Initialize the Deepgram SDK
 const deepgram = new Deepgram(deepgramApiKey);
 
-const directoryPath = 'C:/Users/trabalho/Documents/bot_divisor_de_videos'; // altere isso para o caminho do seu diretório
+const directoryPath = ''; // altere isso para o caminho do seu diretório
 
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
